@@ -1,5 +1,5 @@
 {
-  "name": "101-app",
+  "name": "docker-playground",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -11,10 +11,10 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mysql": "^2.17.1",
-    "sqlite3": "^4.1.0",
-    "uuid": "^3.3.3",
-    "wait-port": "^0.2.2"
+    "mysql": "^2.18.1",
+    "sqlite3": "^4.1.1",
+    "uuid": "^7.0.3",
+    "wait-port": "^0.2.7"
   },
   "prettier": {
     "trailingComma": "all",
@@ -24,8 +24,8 @@
     "singleQuote": true
   },
   "devDependencies": {
-    "jest": "^24.9.0",
-    "nodemon": "^1.19.2",
-    "prettier": "^1.18.2"
+    "jest": "^25.3.0",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.4"
   }
 }
